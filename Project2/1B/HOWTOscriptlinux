@@ -1,0 +1,16 @@
+Hank week 2 project...
+
+In order to script linux you will need to vi into a file.
+
+Write your code in order
+
+and then your good.
+
+Here are the commands to run them:
+$bash proj1B tmp
+$bash proj1B_checker tmp
+
+
+The checker script will give you a congrugulations if it thinks you're satifactory...
+
+

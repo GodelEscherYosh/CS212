@@ -1,0 +1,83 @@
+Lecture 6
+
+	//Notes about the upcoming exams
+		-Mega Quiz is supposed to be very hard in preperation of the Midterm Exam
+
+	//Structs
+	
+		C Key word struct
+
+		EX: 
+
+		struct Ray
+		{
+		double direction[3]
+		}
+
+		You call structss with r.direction[0] = 1;
+		
+		So what are Structs?
+			-It's just a grouping of variables together
+			-In Python we have classes
+			-Methods in python and OOP
+			-STRUCTS in C do not have anything like that! Instead, Structs is just grouping bytes
+			Together
+
+	//Nested Structs
+		These are Structs whithin structs
+
+	//Typedef
+
+		Here, we've made a struct, we say struct Ray.
+
+
+	//FILE I/O
+
+		Two ways to access files:
+			-File descriptors
+				-Lower level interface to files and devices
+
+			-Type: small integers (typically 20 total)
+
+			-Streams:
+
+				Higher
+
+		Process for reading or writing
+			Writing:
+			-open a file
+				-Telss Unix you intend to do file I/O
+			-Function returns a "FILE*
+			
+			Opening File:
+				FILE *handle = fopen(filename, mode);
+				
+				Example: FILE *h fopen("/tmp/212,
+
+			Reading and Writing:
+				-fread()
+				-fwrite()
+
+		//This could be on the Exam
+
+			ftell() Tells us the current value of the file position indicatro for the stream pointed to by stream
+				->Where is the position indicator (Same as number of bytes in the file):wq
+
+
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

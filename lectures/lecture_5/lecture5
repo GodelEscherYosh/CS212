@@ -1,0 +1,33 @@
+lecture 6 | Hank
+
+	//Character strings
+		ASCII Character Set
+		
+	//Printf
+		When you print you have a string and all the % to denote the data you want in it
+
+	so the structure is:
+	printf("STRING_TO_PRINT + all precents", arg1, arg2, ..., argn)
+
+	char A = "A"
+	char NL = '\n'
+
+	and so on
+
+	Q: What if you added something after the null charater. Say you have no null character, and you add a perdio. You want me to oint a string, you gi
+ven a pointer to the character. H will keep going.
+
+	//Setting H to be hello world, then we print it.
+
+	//Characters in C vs strings in C
+
+	Characters in C is quotes, 'A'
+	Strings in C use double, "This is a string"
+
+
+
+
+
+
+
+

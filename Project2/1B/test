@@ -1,0 +1,6 @@
+mkdir testcomplete
+chmod 750 testcomplete
+chmod 600 done
+cd testcomplete
+echo "It works" > done
+cat done

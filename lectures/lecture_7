@@ -1,0 +1,56 @@
+Lecture 7 | Mega Quiz
+
+	//Warning Project 2D
+		Project 2D was harder, approach: add a bunch of print statements,
+	look for the very first thing that looks wrong.
+	
+	//Upcoming projects
+		A touch harder that Project 2D
+
+	//What should you be doing
+		-Tue Oct31: quiz on reading chapter 3.1-3.4
+		-2E: due tonight
+		-2F: due Thurs Oct 25
+		-2G: due Friday Nov 3
+
+	//Very short programming gone through the process of doing it with the compiler
+
+	//2G
+		Very big project 2D. 
+		Due after the midterm.
+		The hardest project you've not done yet
+	//Tuesday's quiz:
+	
+	//2E due tonight
+
+Lecture outline
+
+	Function Prototypes
+
+	What does #include do
+		The compiler can only compile one file at a file
+	takes another file and includes it in the current file
+
+	The compiler says #include
+
+Demonstrate #sign
+
+	//i need more sleep
+
+UNIONS (go quickly through it)
+
+	Union is a special data type
+
+	typdef union
+	{
+	int y;
+	float x;
+	char char[4];
+	}
+	Now you would think this has 12 bytes because int + float + 4chars
+	must be equal to 12 bytes.
+
+	The thing is that this only allocates 4 bytes of memory.
+	What is stored is the max possible bytes.
+
+
